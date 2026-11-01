@@ -7,6 +7,6 @@ markdown: kramdown
 permalink: pretty
 
 header_pages:
-	- index.md
-	- TryHackMe/index.md
-	- README.md
+  - index.md
+  - TryHackMe/index.md
+  - README.md
