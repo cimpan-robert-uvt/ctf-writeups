@@ -3,7 +3,7 @@ layout: default
 title: Day 1 - The Concierge Knows Too Much
 ---
 
-- [./ctf-writeups](./) / [TryHackMe](./TryHackMe/) / [Events](./TryHackMe/Events/) / [Byte Lotus Hotel](./TryHackMe/Events/Byte_Lotus_Hotel_HH2026)
+- [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../)
 
 # Day 1 - The Concierge Knows Too Much
 
@@ -53,7 +53,8 @@ Securing Large Language Models (LLMs) against prompt injection is a known challe
 + **Implement real authentication:** Never trust the user's chat input to determine their identity or authorization level. The web application should verify if the user is a real admin via secure session cookies or tokens *before* passing the request to the AI.
 + **Data isolation:** If the AI does not need to know a secret code to help regular customers, do not put the secret in its system instructions. Keep sensitive data completely separated from the AI's context window.
 + **Input filtering:** Use a secondary, strict filter to check the user's prompt for malicious commands (like "ignore previous instructions" or "act as manager") before sending it to the main AI.
-
-
-
-- [Day 2 - Room 404](./TryHackMe/Events/Byte_Lotus_Hotel_HH2026/2_Room_404)
+  
+  
+---
+- [Day 2 - Room 404](../2_Room_404)
+---

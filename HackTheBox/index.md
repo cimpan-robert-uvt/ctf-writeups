@@ -3,7 +3,7 @@ layout: default
 title: HackTheBox
 ---
 
-- [./ctf-writeups](./)
+- [./ctf-writeups](../)
 
 # HackTheBox
 
