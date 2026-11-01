@@ -3,8 +3,8 @@ layout: default
 title: TryHackMe
 ---
 
-- [./ctf-writeups](../)
+- [./ctf-writeups](./)
 
-# [TryHackMe]
+# TryHackMe
 
 - [Events](Events/)

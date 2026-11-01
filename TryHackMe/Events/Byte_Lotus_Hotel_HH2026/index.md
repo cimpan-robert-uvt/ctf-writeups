@@ -3,7 +3,7 @@ layout: default
 title: Byte Lotus Hotel
 ---
 
-- [./ctf-writeups](../) / [TryHackMe](TryHackMe/) / [Events](TryHackMe/Events/)
+- [./ctf-writeups](./) / [TryHackMe](./TryHackMe/) / [Events](./TryHackMe/Events/)
 
 # Byte Lotus Hotel
 
