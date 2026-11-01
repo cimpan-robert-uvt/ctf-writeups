@@ -5,13 +5,15 @@ title: CTF write-ups
 
 # CTF write-ups
 
-Welcome to the archive. Pick a platform and follow the trail.
+Welcome! Pick a platform and follow the trail.
 
 ## Platforms
 
 - [TryHackMe](TryHackMe/)
-- [Repository README](README/)
+- [HackTheBox]()
 
-## Featured event
+## Completed events & write-ups
 
-- [Byte Lotus Hotel - Hacker Holidays 2026](TryHackMe/Events/Byte_Lotus_Hotel_HH2026/)
+### 2026
+
+- [TryHackMe - Byte Lotus Hotel (Hacker Holidays 2026)](TryHackMe/Events/Byte_Lotus_Hotel_HH2026/)

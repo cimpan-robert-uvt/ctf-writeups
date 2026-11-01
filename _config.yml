@@ -1,7 +1,6 @@
 theme: jekyll-theme-hacker
 
-title: CTF write-ups
-description: A living archive of rooms, events, and practical security notes.
+description: This repository contains a collection of my write-ups/solutions/source code/exploitation scripts for various Capture The Flag (CTF) challenges/competitions
 
 markdown: kramdown
 permalink: pretty
