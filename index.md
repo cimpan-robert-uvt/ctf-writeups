@@ -3,7 +3,6 @@ layout: default
 title: CTF write-ups
 ---
 
-# CTF write-ups
 
 Welcome! Pick a platform and follow the trail.
 
@@ -11,6 +10,7 @@ Welcome! Pick a platform and follow the trail.
 
 - [TryHackMe](TryHackMe/)
 - [HackTheBox]()
+
 
 ## Completed events & write-ups
 
