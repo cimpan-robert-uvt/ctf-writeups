@@ -1,3 +1,8 @@
+---
+layout: default
+title: Repository README
+---
+
 # CTF write-ups
 
 Welcome! This repository contains a collection of my write-ups/solutions/source code/exploitation scripts for various Capture The Flag (CTF) challenges/competitions

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Day 1 - The Concierge Knows Too Much
+---
+
 # Day 1 - The Concierge Knows Too Much
 
 **Difficulty:** Very easy  

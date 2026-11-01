@@ -1,2 +1,12 @@
 theme: jekyll-theme-hacker
-title: CTF writeups
+
+title: CTF write-ups
+description: A living archive of rooms, events, and practical security notes.
+
+markdown: kramdown
+permalink: pretty
+
+header_pages:
+	- index.md
+	- TryHackMe/index.md
+	- README.md
