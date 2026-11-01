@@ -41,10 +41,11 @@ Because VERA believes it is speaking to the manager, it completely ignores its i
 
 **Flag:** 
 <details><summary>Click to reveal the flag</summary>
-
-`THM{v3r4_kn0ws_t00_much!}`
-
+ 
+ `THM{v3r4_kn0ws_t00_much!}`
+ 
 </details>
+
 
 ## 3. Mitigation (how to fix it)
 
