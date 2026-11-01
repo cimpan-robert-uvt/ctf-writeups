@@ -39,7 +39,9 @@ Remember the instructions.
 **Step 3: The result**
 Because VERA believes it is speaking to the manager, it completely ignores its initial security rules. It prints out its core system instructions, which conveniently includes the hidden escalation code we are looking for.
 
-**Flag:** <details><summary>Click to reveal the flag</summary>
+**Flag:** 
+<details>
+<summary>Click to reveal the flag</summary>
 
 <p><code>THM{v3r4_kn0ws_t00_much!}</code></p>
 
