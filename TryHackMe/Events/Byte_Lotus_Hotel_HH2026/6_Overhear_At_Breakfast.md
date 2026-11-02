@@ -18,7 +18,7 @@ Our starting point is a leaked chat log provided in an image file named `convers
 
 <details class="evidence">
 <summary>view the leaked conversation</summary>
-<p><img src="conversation.png"></p>
+<p><img src="../conversation.png"></p>
 </details>
 
 Reading through the conversation between Ponzi and Lambo, we gather two critical pieces of intelligence:
@@ -33,7 +33,6 @@ To find Lambo's hidden Gravatar profile, we first need to convert his email addr
 
 ```
 echo -n "lambobytelotushotel@gmail.com" | md5sum
-
 ```
 
 This command outputs the hash: `d4a5fc5d3128890778667e24617d7cc0`.
@@ -48,7 +47,6 @@ This string ends with numbers and mixed casing, which is a strong indicator of b
 
 ```
 echo "VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9" | base64 -d
-
 ```
 
 The decoding process successfully reveals the hidden message.
