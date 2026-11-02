@@ -16,15 +16,61 @@
 html { background: var(--background); }
 
 body {
-	max-width: 980px;
-	margin: 0 auto;
-	padding: 0 28px 48px;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0 0 48px;
 	color: var(--ink);
-	background: linear-gradient(rgba(104, 225, 208, 0.035) 1px, transparent 1px), var(--background);
-	background-size: 100% 5px;
+	background: var(--background);
 	font-family: "Courier New", Courier, monospace;
 	font-size: 16px;
 	line-height: 1.7;
+}
+
+body::before,
+body::after {
+	position: fixed;
+	inset: 0;
+	content: "";
+	pointer-events: none;
+}
+
+body::before {
+	z-index: 0;
+	background: repeating-linear-gradient(
+		to bottom,
+		transparent 0,
+		transparent 4px,
+		rgba(104, 225, 208, 0.055) 5px
+	);
+}
+
+body::after {
+	z-index: 0;
+	background: repeating-linear-gradient(
+		to bottom,
+		rgba(183, 243, 74, 0.3) 0,
+		rgba(183, 243, 74, 0.3) 2px,
+		transparent 2px,
+		transparent 7px
+	);
+	mask-image: radial-gradient(ellipse 230px 150px at var(--mouse-x, 50vw) var(--mouse-y, 50vh), black 0%, transparent 72%);
+	opacity: 0;
+	transform: translateY(0);
+}
+
+body:hover::after {
+	opacity: 0.75;
+	animation: line-dance 760ms steps(2, end) infinite;
+}
+
+body > * {
+	position: relative;
+	z-index: 1;
+}
+
+@keyframes line-dance {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(4px); }
 }
 
 header {
@@ -32,7 +78,7 @@ header {
 	border-bottom: 1px solid var(--line);
 }
 
-.container { width: 100%; max-width: none; margin: 0 auto; }
+.container { width: 100%; max-width: 1036px; margin: 0 auto; padding: 0 28px; }
 
 #a-title { color: var(--lime); text-decoration: none; }
 
@@ -112,7 +158,12 @@ footer img { width: 30px; transition: transform 120ms ease; }
 footer img:hover { transform: translateY(-3px); }
 
 @media (max-width: 600px) {
-	body { padding: 0 18px 34px; font-size: 15px; }
+	body { padding-bottom: 34px; font-size: 15px; }
+	.container { padding: 0 18px; }
 	header { padding-top: 34px; }
 	#main_content { padding: 28px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	body:hover::after { animation: none; }
 }
