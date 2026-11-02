@@ -79,7 +79,10 @@ header {
 
 .container { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 28px; }
 
-.site-header { border-bottom: 1px solid var(--line); }
+.site-header {
+	padding-bottom: 16px;
+	border-bottom: 1px solid var(--line);
+}
 
 #a-title { color: var(--lime); text-decoration: none; }
 
@@ -92,7 +95,7 @@ header {
 }
 
 header h2 {
-	max-width: 760px;
+	max-width: none;
 	margin: 22px 0 0;
 	color: var(--muted);
 	font-size: 0.95rem;
@@ -166,6 +169,7 @@ footer { border-top: 0; }
 
 .footer-inner {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	gap: 15px;
 	border-top: 1px solid var(--line);
@@ -173,6 +177,8 @@ footer { border-top: 0; }
 }
 
 footer img { width: 50px; }
+
+footer a:first-child { transform: translateY(3px); }
 
 @media (max-width: 600px) {
 	body { padding-bottom: 34px; font-size: 15px; }
