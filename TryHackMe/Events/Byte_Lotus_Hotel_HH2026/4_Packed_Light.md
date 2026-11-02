@@ -7,7 +7,7 @@ title: Day 4 - Packet Light
 
 # Day 4 - Network traffic analysis
 
-**Difficulty:** Easy
+**Difficulty:** Easy  
 **Category:** Network forensics / Wireshark
 
 **Summary:** This room focuses on network forensics and traffic analysis. By analyzing a packet capture file (`.pcap`) in Wireshark, we identify a suspicious python script being downloaded over HTTP. This script reveals a custom XOR encryption key and a specific cookie used to exfiltrate data. We then extract the encoded cookie values from the network traffic and decode them to retrieve the hidden flag.
@@ -63,3 +63,4 @@ To prevent this type of data exfiltration and protect network traffic, the follo
 + **Implement network monitoring (IDS/IPS):** Configure Intrusion Detection Systems to monitor and flag unusual behaviors, such as downloading `.py` files from temporary web directories or sending cookies with abnormally formatted base64 payloads.
 
   <br>
+- [Day 5 - Beach Bar](../5_Beach_Bar)
