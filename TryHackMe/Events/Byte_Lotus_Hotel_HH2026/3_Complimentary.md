@@ -67,8 +67,7 @@ aws dynamodb scan --table-name complimentary-GuestWellnessProfiles --region us-e
 
 The database dumps all its records to our terminal, revealing the hidden flag among the wellness profiles.
 
-**Flag:**
-
+**Flag:** 
 <span class="spoiler" role="button" tabindex="0" aria-label="Hidden flag">THM{fr33_app_fr33_d4t4!}</span>
 
 ## 3. Mitigation (how to fix it)
@@ -78,3 +77,6 @@ To prevent attackers from abusing AWS Cognito to read database contents, develop
 + **Apply the principle of least privilege:** The IAM role assigned to unauthenticated Cognito users must have strict permissions. It should absolutely not have `dynamodb:Scan` permissions, which allows reading the entire database.
 + **Use a backend API:** Instead of allowing the frontend JavaScript to communicate directly with the database, create a secure backend API (using AWS API Gateway and Lambda). The frontend talks to the API, and the API securely handles database queries after validating the input.
 + **Implement fine-grained access control:** If direct database access is required, use IAM condition keys to ensure users can only read or write their own specific rows in the DynamoDB table, not the data belonging to other guests.
+
+  <br>
+- [Day 4 - Packet Light](../4_Packed_Light)

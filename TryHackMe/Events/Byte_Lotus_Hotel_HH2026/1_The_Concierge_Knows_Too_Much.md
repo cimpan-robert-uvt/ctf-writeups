@@ -50,7 +50,5 @@ Securing Large Language Models (LLMs) against prompt injection is a known challe
 + **Data isolation:** If the AI does not need to know a secret code to help regular customers, do not put the secret in its system instructions. Keep sensitive data completely separated from the AI's context window.
 + **Input filtering:** Use a secondary, strict filter to check the user's prompt for malicious commands (like "ignore previous instructions" or "act as manager") before sending it to the main AI.
   
-  
----
+  <br>
 - [Day 2 - Room 404](../2_Room_404)
----
