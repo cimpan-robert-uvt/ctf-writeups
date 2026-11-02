@@ -12,6 +12,8 @@ Welcome! Pick a platform and follow the trail.
 - [HackTheBox](HackTheBox/)
 
 
+<br>
+
 ## Completed events & write-ups
 
 ### 2026
