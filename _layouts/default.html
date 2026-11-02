@@ -34,20 +34,20 @@
         {{ content }}
       </section>
     </div>
+    <footer>
+      <div class="container footer-inner">
+        <a href="YOUR_THM_PROFILE_URL" target="_blank" rel="noopener">
+          <img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50">
+        </a>
+        <a href="YOUR_HTB_PROFILE_URL" target="_blank" rel="noopener">
+          <img src="{{ '/assets/htb-logo.png' | relative_url }}" alt="HackTheBox" width="50">
+        </a>
+        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener">
+          <img src="{{ '/assets/linkedin-logo.png' | relative_url }}" alt="LinkedIn" width="50">
+        </a>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div style="display: flex; gap: 15px; padding-top: 20px;">
-  <a href="YOUR_THM_PROFILE_URL" target="_blank">
-    <img src="/ctf-writeups/assets/thm-logo.png" alt="TryHackMe" width="30">
-  </a>
-  <a href="YOUR_HTB_PROFILE_URL" target="_blank">
-    <img src="/ctf-writeups/assets/htb-logo.png" alt="HackTheBox" width="30">
-  </a>
-  <a href="YOUR_LINKEDIN_URL" target="_blank">
-    <img src="/ctf-writeups/assets/linkedin-logo.png" alt="LinkedIn" width="30">
-  </a>
-</div>
-  </footer>
   <script>
     document.addEventListener('pointermove', function (event) {
       document.documentElement.style.setProperty('--mouse-x', event.clientX + 'px');

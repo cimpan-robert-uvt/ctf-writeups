@@ -8,6 +8,13 @@ url: https://cimpan-robert-uvt.github.io
 markdown: kramdown
 permalink: pretty
 
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
 header_pages:
   - index.md
   - TryHackMe/index.md

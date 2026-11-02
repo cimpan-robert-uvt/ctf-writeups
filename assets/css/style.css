@@ -151,11 +151,23 @@ details[open] summary { margin-bottom: 14px; }
 
 img { max-width: 100%; height: auto; }
 
-footer { padding-top: 20px; border-top: 1px solid var(--line); }
+footer { border-top: 1px solid var(--line); }
 
-footer img { width: 30px; transition: transform 120ms ease; }
+.footer-inner {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	padding-top: 20px;
+}
 
-footer img:hover { transform: translateY(-3px); }
+footer img { width: 50px; }
+
+footer a:hover,
+footer a:focus {
+	color: inherit;
+	background: transparent;
+	outline: none;
+}
 
 @media (max-width: 600px) {
 	body { padding-bottom: 34px; font-size: 15px; }
