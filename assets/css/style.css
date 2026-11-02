@@ -123,6 +123,9 @@ a { color: var(--cyan); }
 
 ul, ol { padding-left: 1.7rem; }
 
+#main_content li,
+#main_content li + li { margin-top: 0; }
+
 li::marker { color: var(--lime); content: ">> "; }
 
 blockquote, pre {
