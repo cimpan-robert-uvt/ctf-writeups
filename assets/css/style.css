@@ -166,6 +166,28 @@ pre code { padding: 0; background: transparent; }
 	outline-offset: 2px;
 }
 
+.evidence {
+	margin: 24px 0;
+	padding: 14px 18px;
+	border: 1px solid var(--line);
+	border-left: 4px solid var(--cyan);
+	background: var(--surface);
+}
+
+.evidence summary {
+	cursor: pointer;
+	color: var(--orange);
+	font-weight: bold;
+}
+
+.evidence[open] summary { margin-bottom: 14px; }
+
+.evidence img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 img { max-width: 100%; height: auto; }
 
 footer { border-top: 0; }
