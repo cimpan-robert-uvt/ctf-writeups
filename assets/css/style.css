@@ -75,10 +75,11 @@ body > * {
 
 header {
 	padding: 58px 0 34px;
-	border-bottom: 1px solid var(--line);
 }
 
 .container { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 28px; }
+
+.site-header { border-bottom: 1px solid var(--line); }
 
 #a-title { color: var(--lime); text-decoration: none; }
 
@@ -121,7 +122,7 @@ ul, ol { padding-left: 1.7rem; }
 
 li::marker { color: var(--lime); content: ">> "; }
 
-blockquote, pre, details {
+blockquote, pre {
 	margin: 24px 0;
 	padding: 16px 20px;
 	border: 1px solid var(--line);
@@ -138,18 +139,36 @@ code { padding: 2px 5px; color: var(--lime); background: var(--surface-raised); 
 
 pre code { padding: 0; background: transparent; }
 
-summary { cursor: pointer; color: var(--orange); font-weight: bold; }
+.spoiler {
+	display: inline-block;
+	padding: 2px 6px;
+	border-radius: 3px;
+	color: transparent;
+	background: #444;
+	cursor: pointer;
+	user-select: none;
+}
 
-details[open] summary { margin-bottom: 14px; }
+.spoiler.revealed {
+	color: var(--lime);
+	background: var(--surface-raised);
+	user-select: text;
+}
+
+.spoiler:focus-visible {
+	outline: 2px solid var(--cyan);
+	outline-offset: 2px;
+}
 
 img { max-width: 100%; height: auto; }
 
-footer { border-top: 1px solid var(--line); }
+footer { border-top: 0; }
 
 .footer-inner {
 	display: flex;
 	justify-content: center;
 	gap: 15px;
+	border-top: 1px solid var(--line);
 	padding-top: 20px;
 }
 

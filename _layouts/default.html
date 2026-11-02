@@ -13,7 +13,7 @@
   <body>
 
     <header>
-      <div class="container">
+      <div class="container site-header">
         <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
@@ -47,11 +47,29 @@
         </a>
       </div>
     </footer>
-  </body>
   <script>
+    function revealSpoiler(spoiler) {
+      spoiler.classList.add('revealed');
+      spoiler.setAttribute('aria-label', 'Revealed spoiler');
+    }
+
+    document.addEventListener('click', function (event) {
+      var spoiler = event.target.closest('.spoiler');
+      if (spoiler) revealSpoiler(spoiler);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      var spoiler = event.target.closest('.spoiler');
+      if (spoiler && (event.key === 'Enter' || event.key === ' ')) {
+        event.preventDefault();
+        revealSpoiler(spoiler);
+      }
+    });
+
     document.addEventListener('pointermove', function (event) {
       document.documentElement.style.setProperty('--mouse-x', event.clientX + 'px');
       document.documentElement.style.setProperty('--mouse-y', event.clientY + 'px');
     });
   </script>
+  </body>
 </html>
