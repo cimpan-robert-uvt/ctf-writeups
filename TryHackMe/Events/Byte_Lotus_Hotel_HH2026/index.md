@@ -21,5 +21,4 @@ title: Byte Lotus Hotel
 - [Day 12 - After Hours](12_After_Hours)
 - [Day 13 - The Guestbook](13_The_Guestbook)
 - [Day 14 - Management Wants A Word](14_Management_Wants_A_Word)
-
 - [Certificate Of Completion](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-MZKGBEO5VX.pdf)

@@ -183,6 +183,22 @@ footer img { width: 50px; }
 
 footer a:first-child { transform: translateY(3px); }
 
+.visit-counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding-top: 12px;
+	color: var(--orange);
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+}
+
+.visit-counter img {
+	width: auto;
+	height: 20px;
+}
+
 @media (max-width: 600px) {
 	body { padding-bottom: 34px; font-size: 15px; }
 	.container { padding: 0 18px; }
