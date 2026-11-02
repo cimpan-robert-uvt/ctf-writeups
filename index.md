@@ -6,13 +6,13 @@ title: CTF write-ups
 
 Welcome! Pick a platform and follow the trail.
 
-<br>
-
 ## Platforms
 
 - [TryHackMe](TryHackMe/)
 - [HackTheBox](HackTheBox/)
 
+
+<br>
 
 ## Completed events & write-ups
 
