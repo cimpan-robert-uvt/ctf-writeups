@@ -55,5 +55,5 @@ Race conditions (or TOCTOU - Time of Check to Time of Use flaws) are common in a
 + **Atomic transactions:** Ensure that the "check eligibility" and "update balance" steps occur within a single, indivisible database transaction.
 + **Strict rate limiting:** Implement robust rate limiting on the API endpoint to drop excessive requests originating from the same user within a tiny fraction of a second.
 
-  <br>
+<br>
 - [Day 9 - CryptoCabana](../9_CryptoCabana)

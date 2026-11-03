@@ -88,5 +88,5 @@ To secure this infrastructure and prevent this multi-stage attack, the following
 + **Protect sensitive configurations:** Avoid exposing hardcoded credentials or secrets in open configuration endpoints (`/api/config`).
 + **Implement network segmentation:** The web server process running the edge application should be isolated. It should not have unrestricted network access to internal automation APIs and telephony portals.
 
-  <br>
+<br>
 - [Day 12 - After Hours](../12_After_Hours)

@@ -62,5 +62,5 @@ To prevent this type of data exfiltration and protect network traffic, the follo
 + **Avoid custom cryptography:** Do not rely on simple, custom encryption methods like hardcoded XOR keys. Always use established, industry-standard cryptographic algorithms.
 + **Implement network monitoring (IDS/IPS):** Configure Intrusion Detection Systems to monitor and flag unusual behaviors, such as downloading `.py` files from temporary web directories or sending cookies with abnormally formatted base64 payloads.
 
-  <br>
+<br>
 - [Day 5 - Beach Bar](../5_Beach_Bar)

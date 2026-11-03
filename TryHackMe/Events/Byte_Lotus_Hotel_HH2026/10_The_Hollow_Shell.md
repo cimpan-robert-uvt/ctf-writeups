@@ -91,5 +91,5 @@ To prevent Zip Slip and insecure file uploads, developers must implement the fol
 + **Sanitize archive contents:** Do not rely on a user-provided JSON file to validate what is inside an archive. The backend must iterate through the ZIP headers directly and check the extensions and names of all included files.
 + **Apply least privilege:** The web application process (`roomservice`) should only have write access to the specific upload directory. It should absolutely not have permissions to overwrite application source code or executable hooks in parent directories.
 
-  <br>
+<br>
 - [Day 11 - Infinity Pool](../11_Infinity_Pool)

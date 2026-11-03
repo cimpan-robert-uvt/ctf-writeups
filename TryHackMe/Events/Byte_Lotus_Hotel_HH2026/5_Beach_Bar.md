@@ -90,5 +90,5 @@ To secure this system and prevent this attack chain, the following steps must be
 + **Secure credential handling:** Never pass passwords or secrets as command-line arguments, as they become visible to all users via process monitoring tools. Use secure environment variables or properly restricted configuration files instead.
 + **Avoid credential reuse:** Service passwords (like the stream-pass) should never be the same as the root administrative password.
 
-  <br>
+<br>
 - [Day 6 - Overhear At Breakfast](../6_Overhear_At_Breakfast)

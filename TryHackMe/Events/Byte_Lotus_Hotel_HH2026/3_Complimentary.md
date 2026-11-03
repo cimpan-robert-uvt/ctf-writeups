@@ -78,5 +78,5 @@ To prevent attackers from abusing AWS Cognito to read database contents, develop
 + **Use a backend API:** Instead of allowing the frontend JavaScript to communicate directly with the database, create a secure backend API (using AWS API Gateway and Lambda). The frontend talks to the API, and the API securely handles database queries after validating the input.
 + **Implement fine-grained access control:** If direct database access is required, use IAM condition keys to ensure users can only read or write their own specific rows in the DynamoDB table, not the data belonging to other guests.
 
-  <br>
+<br>
 - [Day 4 - Packet Light](../4_Packed_Light)

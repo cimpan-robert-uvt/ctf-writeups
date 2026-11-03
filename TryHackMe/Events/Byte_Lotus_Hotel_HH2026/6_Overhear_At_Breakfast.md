@@ -62,5 +62,5 @@ To prevent OSINT leaks and protect personal or corporate information, the follow
 + **Sanitize abandoned accounts:** Ensure that old, unused profiles on public platforms are fully deleted and scrubbed of information, rather than just abandoned with sensitive data left behind.
 + **Understand hash limitations:** Developers and users should be aware that MD5 hashing (as used by Gravatar to identify emails) is not encryption. Because email addresses are predictable, attackers can easily reverse these hashes using rainbow tables or OSINT tools to expose the underlying email addresses of public avatars.
 
-  <br>
+<br>
 - [Day 7 - Do Not Disturb](../7_Do_Not_Disturb)

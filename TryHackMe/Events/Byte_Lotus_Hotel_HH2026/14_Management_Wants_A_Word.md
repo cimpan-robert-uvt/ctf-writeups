@@ -9,5 +9,5 @@ title: Day 14 - Management Wants A Word
 
 **soon**
 
-
+<br>
 - [Certificate Of Completion](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-MZKGBEO5VX.pdf)

@@ -93,5 +93,5 @@ To prevent this entire attack chain, cloud administrators and developers must en
 + **Enforce the principle of least privilege:** The Service Principal stored in the vault had permission to read secret values. Service accounts should only have access to the specific resources they actively need to function.
 + **Secure credential storage:** Avoid storing sensitive Service Principal JSON files in standard Azure Storage blobs. Instead, rely entirely on managed identities or secure backend key vaults.
 
-  <br>
+<br>
 - [Day 10 - The Hollow Shell](../10_The_Hollow_Shell)

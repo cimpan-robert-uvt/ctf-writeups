@@ -77,5 +77,5 @@ To prevent this attack chain, system administrators and developers must implemen
 + **Disable production debugging:** Ensure that the Node.js Inspector (port 9229) is never enabled in a production environment. 
 + **Apply the principle of least privilege:** Service accounts (like `pipelinesvc`) must never be added to highly privileged administrative groups such as `disk` or `root`. Group memberships should be strictly audited.
 
-  <br>
+<br>
 - [Day 8 - Towel On The Sunbed](../8_Towel_On_The_Sunbed)
