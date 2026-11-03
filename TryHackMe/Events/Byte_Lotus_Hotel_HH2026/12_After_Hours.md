@@ -83,5 +83,6 @@ To detect and prevent WMI-based persistence and fileless malware, security teams
 + **Monitor WMI activity:** Use EDR (Endpoint Detection and Response) solutions or Sysmon (event ID 19, 20, 21) to log and alert on the creation of new WMI event filters, consumers, and bindings.
 + **Enable PowerShell logging:** Enable PowerShell Script Block Logging (event ID 4104) and Module Logging. This captures the deobfuscated payload in the Windows Event Logs before it executes, neutralizing the attacker's attempts to hide in Base64.
 + **Restrict administrative privileges:** WMI persistence and the execution of `net user /add` both require local administrator privileges. Enforce the principle of least privilege to prevent the initial payload from executing successfully.
-  <br>
+
+<br>
 - [Day 13 - The Guestbook](../13_The_Guestbook)
