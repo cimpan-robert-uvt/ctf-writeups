@@ -4,7 +4,7 @@ title: CTF write-ups
 ---
 
 
-Welcome! Pick a platform and follow the trail.
+Welcome, 89.<span class="spoiler" role="button" tabindex="0" aria-label="Hidden flag">nah, joking 🤭</span> ! Pick a platform and follow the trail.
 
 ## Platforms
 
