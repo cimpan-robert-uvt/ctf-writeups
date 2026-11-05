@@ -7,8 +7,9 @@ title: Agent T
 
 # Agent T
 
+**[Try it yourself]**(https://tryhackme.com/room/agentt)
 **Difficulty:** Easy  
-**Category:**  
+**Category:** Web Exploitation
 
 **Summary:** This was a fast and straightforward challenge involving a known backdoor in a development version of PHP. We identified the vulnerable service using Nmap, executed a Python reverse shell exploit, and retrieved the flag as the root user.
 
