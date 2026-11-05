@@ -7,7 +7,7 @@ title: Agent T
 
 # Agent T
 
-**[Try it yourself]**(https://tryhackme.com/room/agentt)
+[**Try it yourself**](https://tryhackme.com/room/agentt)  
 **Difficulty:** Easy  
 **Category:** Web Exploitation
 
