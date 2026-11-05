@@ -5,9 +5,8 @@ title: Day 9 - CryptoCabana
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 8 - Towel On The Sunbed](../8_Towel_On_The_Sunbed)
 
-# Day 9 - CryptoCabana
-
-[**Try it yourself**](https://tryhackme.com/room/hh-cryptocabana-f81cac95)  
+# Day 9 - CryptoCabana      <a href="https://tryhackme.com/room/hh-cryptocabana-f81cac95" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
+ 
 **Difficulty:** Medium  
 **Category:** Cloud security / Azure exploitation
 

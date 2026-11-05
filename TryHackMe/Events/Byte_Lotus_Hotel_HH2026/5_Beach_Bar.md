@@ -5,9 +5,8 @@ title: Day 5 - Beach Bar
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 4 - Packet Light](../4_Packed_Light)
 
-# Day 5 - Beach Bar
+# Day 5 - Beach Bar      <a href="https://tryhackme.com/room/hh-beachbar-d849f7f7" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-beachbar-d849f7f7)  
 **Difficulty:** Easy  
 **Category:** Web exploitation / YAML deserialization / Privilege escalation
 

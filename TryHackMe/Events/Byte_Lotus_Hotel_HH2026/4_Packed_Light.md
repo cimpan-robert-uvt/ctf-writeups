@@ -5,9 +5,8 @@ title: Day 4 - Packet Light
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 3 - Complimentary Wellness App](../3_Complimentary)
 
-# Day 4 - Network traffic analysis
+# Day 4 - Network traffic analysis      <a href="https://tryhackme.com/room/hh-packedlight-02e5330c" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-packedlight-02e5330c)  
 **Difficulty:** Easy  
 **Category:** Network forensics / Wireshark
 

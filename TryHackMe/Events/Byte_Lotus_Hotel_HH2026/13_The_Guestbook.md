@@ -5,9 +5,8 @@ title: Day 13 - The Guestbook
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 12 - After Hours](../12_After_Hours)
 
-# Day 13 - The Guestbook
+# Day 13 - The Guestbook      <a href="https://tryhackme.com/room/hh-theguestbook-0130ffaf" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-theguestbook-0130ffaf)  
 **Difficulty:** Medium  
 **Category:** AI Security / Prompt injection / Command injection
 

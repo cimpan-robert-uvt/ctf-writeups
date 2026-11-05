@@ -5,9 +5,8 @@ title: Day 3 - Complimentary Wellness App
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 2 - Room 404](../2_Room_404)
 
-# Day 3 - Complimentary Wellness App
+# Day 3 - Complimentary Wellness App      <a href="https://tryhackme.com/room/hh-complimentary-05e0b604" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-complimentary-05e0b604)  
 **Difficulty:** Easy  
 **Category:** Cloud security / AWS Cognito exploitation
 

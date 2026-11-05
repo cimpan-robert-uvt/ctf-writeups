@@ -5,9 +5,8 @@ title: Day 7 - Do Not Disturb
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 6 - Overhear At Breakfast](../6_Overhear_At_Breakfast)
 
-# Day 7 - Do Not Disturb
+# Day 7 - Do Not Disturb      <a href="https://tryhackme.com/room/hh-donotdisturb-84a45644" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-donotdisturb-84a45644)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Lateral movement / Privilege escalation
 

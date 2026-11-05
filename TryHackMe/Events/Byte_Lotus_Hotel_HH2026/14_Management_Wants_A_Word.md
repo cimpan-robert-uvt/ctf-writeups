@@ -5,9 +5,8 @@ title: Day 14 - Management Wants A Word
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 13 - The Guestbook](../13_The_Guestbook)
 
-# Day 14 - Management Wants A Word
+# Day 14 - Management Wants A Word      <a href="https://tryhackme.com/room/hh-managementwantsaword-6bf3cc41" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-managementwantsaword-6bf3cc41)  
 **Difficulty:** Hard  
 **Category:** Digital forensics / Cryptography (DPAPI) / Reverse engineering
 

@@ -5,9 +5,8 @@ title: Day 1 - The Concierge Knows Too Much
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../)
 
-# Day 1 - The Concierge Knows Too Much
+# Day 1 - The Concierge Knows Too Much      <a href="https://tryhackme.com/room/hh-theconciergeknows-2d7eb4d9" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-theconciergeknows-2d7eb4d9)  
 **Difficulty:** Very easy  
 **Category:** AI Security / prompt injection  
 

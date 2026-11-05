@@ -5,9 +5,8 @@ title: Day 11 - Infinity Pool
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 10 - The Hollow Shell](../10_The_Hollow_Shell)
 
-# Day 11 - Infinity Pool
-
-[**Try it yourself**](https://tryhackme.com/room/hh-infinitypool-5b3548af)  
+# Day 11 - Infinity Pool      <a href="https://tryhackme.com/room/hh-infinitypool-5b3548af" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
+ 
 **Difficulty:** Medium  
 **Category:** Web exploitation / Command injection / Pivoting
 

@@ -5,9 +5,8 @@ title: Day 12 - After Hours
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 11 - Infinity Pool](../11_Infinity_Pool)
 
-# Day 12 - After Hours
+# Day 12 - After Hours      <a href="https://tryhackme.com/room/hh-afterhours-b090d1f0" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-afterhours-b090d1f0)  
 **Difficulty:** Medium  
 **Category:** Digital forensics / WMI persistence / Reverse engineering
 

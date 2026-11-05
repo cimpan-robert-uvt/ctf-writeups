@@ -5,9 +5,8 @@ title: Day 8 - Towel On The Sunbed
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 7 - Do Not Disturb](../7_Do_Not_Disturb)
 
-# Day 8 - Towel On The Sunbed
+# Day 8 - Towel On The Sunbed      <a href="https://tryhackme.com/room/hh-towelonthesunbed-61271709" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-towelonthesunbed-61271709)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Race condition / Business logic
 

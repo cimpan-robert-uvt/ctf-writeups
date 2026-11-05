@@ -5,7 +5,7 @@ title: Agent T
 
 - [./ctf-writeups](../../../) / [TryHackMe](../../) / [Rooms](../)
 
-# Agent T   <a href="https://tryhackme.com/room/agentt/" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
+# Agent T      <a href="https://tryhackme.com/room/agentt/" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
 **Difficulty:** Easy  
 **Category:** Web Exploitation

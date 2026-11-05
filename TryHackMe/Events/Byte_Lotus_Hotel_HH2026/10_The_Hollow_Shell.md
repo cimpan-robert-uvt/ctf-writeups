@@ -5,9 +5,8 @@ title: Day 10 - The Hollow Shell
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 9 - CryptoCabana](../9_CryptoCabana)
 
-# Day 10 - The Hollow Shell
+# Day 10 - The Hollow Shell      <a href="https://tryhackme.com/room/hh-thehollowshell-ddb582ac" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-thehollowshell-ddb582ac)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Zip Slip / Remote Code Execution
 

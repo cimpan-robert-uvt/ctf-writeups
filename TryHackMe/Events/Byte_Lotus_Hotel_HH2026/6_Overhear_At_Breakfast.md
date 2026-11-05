@@ -5,9 +5,8 @@ title: Day 6 - Overhear At Breakfast
 
 - [./ctf-writeups](../../../../) / [TryHackMe](../../../) / [Events](../../) / [Byte Lotus Hotel](../) / [Day 5 - Beach Bar](../5_Beach_Bar)
 
-# Day 6 - Overhear At Breakfast
+# Day 6 - Overhear At Breakfast      <a href="https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c" target="_blank" rel="noopener"><img src="{{ '/assets/thm-logo.png' | relative_url }}" alt="TryHackMe" width="50"></a>
 
-[**Try it yourself**](https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c)  
 **Difficulty:** Easy  
 **Category:** OSINT / Information disclosure
 
