@@ -7,7 +7,7 @@ title: Day 8 - Towel On The Sunbed
 
 # Day 8 - Towel On The Sunbed
 
-[**Try it yourself**](https://tryhackme.com/room/hh-towelonthesunbed-61271709) 
+[**Try it yourself**](https://tryhackme.com/room/hh-towelonthesunbed-61271709)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Race condition / Business logic
 

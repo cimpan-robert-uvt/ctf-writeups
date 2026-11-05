@@ -7,7 +7,7 @@ title: Day 4 - Packet Light
 
 # Day 4 - Network traffic analysis
 
-[**Try it yourself**](https://tryhackme.com/room/hh-packedlight-02e5330c) 
+[**Try it yourself**](https://tryhackme.com/room/hh-packedlight-02e5330c)  
 **Difficulty:** Easy  
 **Category:** Network forensics / Wireshark
 

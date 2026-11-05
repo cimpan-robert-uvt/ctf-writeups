@@ -7,7 +7,7 @@ title: Day 7 - Do Not Disturb
 
 # Day 7 - Do Not Disturb
 
-[**Try it yourself**](https://tryhackme.com/room/hh-donotdisturb-84a45644) 
+[**Try it yourself**](https://tryhackme.com/room/hh-donotdisturb-84a45644)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Lateral movement / Privilege escalation
 

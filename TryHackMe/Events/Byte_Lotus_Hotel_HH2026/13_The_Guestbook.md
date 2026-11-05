@@ -7,7 +7,7 @@ title: Day 13 - The Guestbook
 
 # Day 13 - The Guestbook
 
-[**Try it yourself**](https://tryhackme.com/room/hh-theguestbook-0130ffaf) 
+[**Try it yourself**](https://tryhackme.com/room/hh-theguestbook-0130ffaf)  
 **Difficulty:** Medium  
 **Category:** AI Security / Prompt injection / Command injection
 

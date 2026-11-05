@@ -7,7 +7,7 @@ title: Day 9 - CryptoCabana
 
 # Day 9 - CryptoCabana
 
-[**Try it yourself**](https://tryhackme.com/room/hh-cryptocabana-f81cac95) 
+[**Try it yourself**](https://tryhackme.com/room/hh-cryptocabana-f81cac95)  
 **Difficulty:** Medium  
 **Category:** Cloud security / Azure exploitation
 

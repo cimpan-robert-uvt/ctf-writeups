@@ -7,7 +7,7 @@ title: Day 11 - Infinity Pool
 
 # Day 11 - Infinity Pool
 
-[**Try it yourself**](https://tryhackme.com/room/hh-infinitypool-5b3548af) 
+[**Try it yourself**](https://tryhackme.com/room/hh-infinitypool-5b3548af)  
 **Difficulty:** Medium  
 **Category:** Web exploitation / Command injection / Pivoting
 

