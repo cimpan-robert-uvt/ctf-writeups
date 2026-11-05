@@ -7,4 +7,5 @@ title: TryHackMe
 
 # TryHackMe
 
+- [Rooms](Rooms/)
 - [Events](Events/)
