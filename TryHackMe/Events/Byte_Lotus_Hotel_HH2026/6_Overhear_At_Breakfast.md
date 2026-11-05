@@ -7,6 +7,7 @@ title: Day 6 - Overhear At Breakfast
 
 # Day 6 - Overhear At Breakfast
 
+[**Try it yourself**](https://tryhackme.com/room/hh-overheardatbreakfast-6f01793c) 
 **Difficulty:** Easy  
 **Category:** OSINT / Information disclosure
 

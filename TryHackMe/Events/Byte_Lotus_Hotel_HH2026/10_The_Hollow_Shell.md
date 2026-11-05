@@ -7,6 +7,7 @@ title: Day 10 - The Hollow Shell
 
 # Day 10 - The Hollow Shell
 
+[**Try it yourself**](https://tryhackme.com/room/hh-thehollowshell-ddb582ac) 
 **Difficulty:** Medium  
 **Category:** Web exploitation / Zip Slip / Remote Code Execution
 

@@ -7,6 +7,7 @@ title: Day 5 - Beach Bar
 
 # Day 5 - Beach Bar
 
+[**Try it yourself**](https://tryhackme.com/room/hh-beachbar-d849f7f7) 
 **Difficulty:** Easy  
 **Category:** Web exploitation / YAML deserialization / Privilege escalation
 

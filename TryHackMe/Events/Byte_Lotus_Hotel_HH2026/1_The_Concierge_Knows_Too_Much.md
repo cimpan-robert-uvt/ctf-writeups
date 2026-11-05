@@ -7,6 +7,7 @@ title: Day 1 - The Concierge Knows Too Much
 
 # Day 1 - The Concierge Knows Too Much
 
+[**Try it yourself**](https://tryhackme.com/room/hh-theconciergeknows-2d7eb4d9) 
 **Difficulty:** Very easy  
 **Category:** AI Security / prompt injection  
 

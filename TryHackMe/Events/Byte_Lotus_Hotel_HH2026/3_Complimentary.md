@@ -7,6 +7,7 @@ title: Day 3 - Complimentary Wellness App
 
 # Day 3 - Complimentary Wellness App
 
+[**Try it yourself**](https://tryhackme.com/room/hh-complimentary-05e0b604) 
 **Difficulty:** Easy  
 **Category:** Cloud security / AWS Cognito exploitation
 

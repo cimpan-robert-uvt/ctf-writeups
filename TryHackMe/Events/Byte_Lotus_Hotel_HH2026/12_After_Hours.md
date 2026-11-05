@@ -7,6 +7,7 @@ title: Day 12 - After Hours
 
 # Day 12 - After Hours
 
+[**Try it yourself**](https://tryhackme.com/room/hh-afterhours-b090d1f0) 
 **Difficulty:** Medium  
 **Category:** Digital forensics / WMI persistence / Reverse engineering
 

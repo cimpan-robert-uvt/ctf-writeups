@@ -7,6 +7,7 @@ title: Day 14 - Management Wants A Word
 
 # Day 14 - Management Wants A Word
 
+[**Try it yourself**](https://tryhackme.com/room/hh-managementwantsaword-6bf3cc41) 
 **Difficulty:** Hard  
 **Category:** Digital forensics / Cryptography (DPAPI) / Reverse engineering
 
