@@ -9,3 +9,4 @@ title: TryHackMe
 
 - [Rooms](Rooms/)
 - [Events](Events/)
+- [Paths](Paths/)
