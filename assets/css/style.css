@@ -84,6 +84,12 @@ header {
 	border-bottom: 1px solid var(--line);
 }
 
+.title-group {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
 #a-title { color: var(--lime); text-decoration: none; }
 
 #a-title h1 {

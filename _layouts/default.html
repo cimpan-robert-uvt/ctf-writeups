@@ -14,7 +14,10 @@
 
     <header>
       <div class="container site-header">
-        <a href="https://github.com/cimpan-robert-uvt/ctf-writeups"target="_blank" rel="noopener"><img src="{{ '/assets/github-logo.png' | relative_url }}" alt="GitHub" width="50"></a><a id="a-title" href="{{ '/' | relative_url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+        <div class="title-group">
+          <a href="https://github.com/cimpan-robert-uvt/ctf-writeups"target="_blank" rel="noopener"><img src="{{ '/assets/github-logo.png' | relative_url }}" alt="GitHub" width="50"></a><a id="a-title" href="{{ '/' | relative_url }}"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+        </div>
+        
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
